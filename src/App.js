@@ -19,8 +19,7 @@ class App extends Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
-    const API_KEY = 'fec8b5ab27b292a68294261bb21b04a5';
-    API_KEY = 'ee2c0dac33fddb8ac2c599b250b08898';
+    const API_KEY = 'ee2c0dac33fddb8ac2c599b250b08898';
     const url = `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&language=en-US&page=1&include_adult=false`;
     axios.get(url, {
       params: {
