@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Reviwer
+> This project is a prototype for another project that I'm working on. It's a simple web app that allows you to review movies and create communities around them. It's built with React, Redux, and Firebase, makink queries to the [TMDB API](https://www.themoviedb.org/documentation/api). If you want to try it out, you can do so by following the instructions below.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live Demo
+You can find a live demo of the app [here](#blank).
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+Clone this repository and install the requirements:
 
-### `npm start`
+```sh
+git clone https://github.com/renan-dias/Reviwer.git
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Move to directory and run the program:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```sh
+cd /Reviwer
+```
 
-### `npm test`
+#Install dependencies
+```sh
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage example
 
-### `npm run build`
+Type a movie name in the search bar and click on the search button. And see the results. This function is the primordial function of the future app. You can also click on the movie poster to see more details about the movie.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Release History
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* 0.0.1
+    * CHANGE: Create project and publish it on GitHub.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Coming 
+- [x] :tada: Start the project
+- [ ] Make a style guide
+- [ ] Add a login system
+- [ ] Add a review system
+- [ ] Add a community system
